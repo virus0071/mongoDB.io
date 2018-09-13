@@ -1,0 +1,25 @@
+body {
+    background-image: url("./images/13.jpg");
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position: center;
+    height:100%;
+    width:100%;
+ }
+h1 {
+    text-align:center;
+    color:white;
+    font-family: "Ruslan Display", cursive;
+}
+
+#j1 {
+    background-image: url("./images/bg12.png");
+}
+
+#j2 {
+    background-image: url("./images/bg7.png");
+}
+
+#j3 {
+    background-image: url("./images/bg6.png");
+}
