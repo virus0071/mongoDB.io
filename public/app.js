@@ -1,6 +1,6 @@
 $.getJSON("/articles", function (data) {
     for (var i = 0; i < data.length; i++) {
-        $("#articles").append("<li data-id='" + data[i]._id + "'>" + 
+        $("#artList").append("<li data-id='" + data[i]._id + "'>" + 
         "<strong>" + data[i].title + "</strong>" + 
         "<br />" + data[i].link + "</li>");
     }
