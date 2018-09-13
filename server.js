@@ -18,7 +18,7 @@ app.use(logger("dev"));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost/scraperdb");
+mongoose.connect("mongodb://heroku_2tdxqznz:ASDASDASEASEWA@ds255332.mlab.com:55332/scraperdb");
 var db = mongoose.connection;
 
 db.on("error", function(error) {
